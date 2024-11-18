@@ -131,12 +131,12 @@ public class ATMOperations {
 		while (flag) {
 			System.out.println("operator mode: operator name: " + card.getUserName());
 			System.out.println("====================================================================");
-			System.out.println("||            0.Switch off the machine                ||");
+			System.out.println("||            0.Switch off the machine                      ||");
 			System.out.println("||            1.To check ATM machine balance                ||");
-			System.out.println("||            2.Deposite cash in ATM machine               ||");
-			System.out.println("||            3.Reset user pin attempts                ||");
-			System.out.println("||            4.To check activities performed in the machine                ||");
-			System.out.println("||            5.Exit operator mode                ||");
+			System.out.println("||            2.Deposite cash in ATM machine                ||");
+			System.out.println("||            3.Reset user pin attempts                     ||");
+			System.out.println("||            4.To check activities performed in the machin ||");
+			System.out.println("||            5.Exit operator mode                          ||");
 			System.out.println("Please enter your choice");
 			int option = scanner.nextInt();
 			switch (option) {
